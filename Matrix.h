@@ -53,8 +53,10 @@ public:
 	unsigned numCols() const;
 
 	//MODIFIERS
-	Matrix& transpose();
-	Matrix& operator*(const Matrix& other);
+	void transpose();
+
+	//OPERATORS
+	const Matrix operator*(const Matrix& other);
 private:
 	std::vector<T> m_rows;
 	std::vector<T> m_cols;
