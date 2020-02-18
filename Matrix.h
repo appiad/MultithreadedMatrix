@@ -56,7 +56,7 @@ public:
 	void transpose();
 
 	//OPERATORS
-	const Matrix operator*(const Matrix& other);
+	const Matrix operator*(const Matrix& other) const ;
 private:
 	std::vector<T> m_rows;
 	std::vector<T> m_cols;
