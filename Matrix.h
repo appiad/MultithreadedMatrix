@@ -17,6 +17,7 @@ Build Instuctions: g++ .cpp -std="c++11" -pthread
 	Everything is done in a single .h file except for the 
 	testing done in the main file. Each class will have their own 
 	header and cpp file in a future revision.
+	
 
 	Note: JobQueue and ThreadPool are modified versions of Anthony William's
 	ThreadSafeQueue and ThreadPool in his book C++ Concurrency in Action
